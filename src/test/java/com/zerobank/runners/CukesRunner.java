@@ -9,8 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = "com/zerobank/step_definitions",
         features = "src/test/resources",
-        dryRun = true
-
+        dryRun = false
 )
 public class CukesRunner {
 
