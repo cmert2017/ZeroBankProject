@@ -32,7 +32,7 @@ public class LoginStepDefinition {
 
     @When("user enters valid credentials")
     public void user_enters_valid_credentials() {
-        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
        loginPage.login();
     }
 
