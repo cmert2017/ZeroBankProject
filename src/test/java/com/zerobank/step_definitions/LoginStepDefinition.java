@@ -34,6 +34,7 @@ public class LoginStepDefinition {
     public void user_enters_valid_credentials() {
        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
        loginPage.login();
+
     }
 
     @Then("system displays the account summary page")
